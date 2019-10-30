@@ -4,7 +4,7 @@
 
 ## Install JSON Server
 ```sh
-$ npm i
+$ npm install -g json-server
 ```
 
 ## Start JSON Server

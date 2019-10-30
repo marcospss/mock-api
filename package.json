@@ -4,7 +4,7 @@
   "description": "MOCK: The Movie Database (TMDb)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "json-server --watch db.json --port 8090"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,5 @@
     "url": "https://github.com/marcospss/mock-api/issues"
   },
   "homepage": "https://github.com/marcospss/mock-api#readme",
-  "dependencies": {
-    "json-server": "^0.15.1"
-  }
+  "dependencies": {}
 }
